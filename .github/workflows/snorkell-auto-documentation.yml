@@ -1,6 +1,6 @@
 # This workflow will improvise current file with AI genereated documentation and Create new PR
 
-name: Snorkell.ai - Revolutionizing Documentation on GitHub
+name: Penify - Revolutionizing Documentation on GitHub
 
 on:
   push:
@@ -11,7 +11,7 @@ jobs:
   Documentation:
     runs-on: ubuntu-latest
     steps:
-    - name: Snorkell DocGen Client
+    - name: Penify DocGen Client
       uses: SingularityX-ai/snorkell-documentation-client@v1.0.0
       with:
         client_id: ${{ secrets.SNORKELL_CLIENT_ID }}
